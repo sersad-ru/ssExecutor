@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For ssExecutor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ssExecutor	KEYWORD1	ssExecutor
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+ssExecutor		KEYWORD2
+setDelay 		KEYWORD2
+getDelay		KEYWORD2
+exec		KEYWORD2
+run		KEYWORD2
+#######################################
+# Structures (KEYWORD3)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
