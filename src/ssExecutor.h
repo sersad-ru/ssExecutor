@@ -23,10 +23,10 @@ typedef void (*ssPayload)(void);
 
 class ssExecutor {
   public:
-    ssExecutor(){ssExecutor(0, NULL);};
-    ssExecutor(const uint32_t delay_ms){ssExecutor(delay_ms, NULL);};
-    ssExecutor(const ssPayload func){ssExecutor(0, func);};
-    ssExecutor(const uint32_t delay_ms, const ssPayload func){setDelay(delay_ms);_func = func;};
+    ssExecutor() : ssExecutor(0, NULL) {};
+    ssExecutor(const uint32_t delay_ms) : ssExecutor(delay_ms, NULL) {};
+    ssExecutor(const ssPayload func) : ssExecutor(0, func) {};
+    ssExecutor(const uint32_t delay_ms, const ssPayload func) {setDelay(delay_ms);_func = func;};
 
     void exec(uint32_t delay_ms, const ssPayload func);
     void exec(const uint32_t delay_ms){exec(delay_ms, NULL);};
