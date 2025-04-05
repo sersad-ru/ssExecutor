@@ -36,6 +36,7 @@ class ssExecutor {
     virtual void run(){};
     
   private:
+    uint32_t _last_action = millis();
     uint32_t _delay_ms = 0;
     ssPayload _func = NULL;
 };//class
