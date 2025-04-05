@@ -18,11 +18,17 @@ along with this program. If not, see <www.gnu.org/licenses/>.
 #pragma once
 #include <Arduino.h>
 
-// Прототип исполняемого кода
-typedef void (*ssPayload)(void);
+// Callback
+#if !defined(ESP32) && !defined(ESP8266)
+typedef void (*ssPayload)(void); // Для ATMEL
+#else
+typedef std::function<void()> ssPayload; // Для ESP
+#endif
+
 
 class ssExecutor {
   public:
+
     ssExecutor(const uint32_t delay_ms = 0, const ssPayload func = NULL) {setDelay(delay_ms);_func = func;};
     ssExecutor(const ssPayload func) : ssExecutor(0, func) {};
 
