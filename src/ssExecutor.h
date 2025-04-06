@@ -36,7 +36,10 @@ class ssExecutor {
     void exec(const ssPayload func){exec(0, func);};
 
     void setDelay(const uint32_t delay_ms){_delay_ms = delay_ms;};
-    uint32_t getDelay(){return _delay_ms;};
+    uint32_t getDelay(){return _delay_ms;};   
+
+    void setLastAction(const uint32_t last_ms){_last_action = last_ms;};
+    uint32_t getLastAction(){return _last_action;};
 
   protected:
     virtual void run(){};
