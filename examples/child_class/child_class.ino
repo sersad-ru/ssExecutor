@@ -10,7 +10,7 @@
 class Foo : public ssExecutor {
   public:
     Foo() : ssExecutor(EXEC_DELAY_MS){}; // Call base class constructor and specify the execution delay
-    void run() override {Serial.println("Foo class");}; // will be executed every EXEC_DELAY_MS miliseconds
+    void run() override {Serial.println("I'am executed!");}; // will be executed every EXEC_DELAY_MS miliseconds
 };
 
 Foo fooObj = Foo();

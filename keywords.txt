@@ -13,8 +13,10 @@ ssExecutor	KEYWORD1	ssExecutor
 ssExecutor		KEYWORD2
 setDelay 		KEYWORD2
 getDelay		KEYWORD2
-exec		KEYWORD2
-run		KEYWORD2
+exec		    KEYWORD2
+run		        KEYWORD2
+setLastAction	KEYWORD2
+getLastAction	KEYWORD2
 #######################################
 # Structures (KEYWORD3)
 #######################################
