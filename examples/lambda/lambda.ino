@@ -1,6 +1,6 @@
 /*
-* ssExecutor test. Lambda Example
-*/
+ * ssExecutor test. Lambda Example
+ */
 
 #include <Arduino.h>
 #include <ssExecutor.h>

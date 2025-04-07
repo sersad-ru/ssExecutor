@@ -1,6 +1,6 @@
 /*
-* ssExecutor test. Function Example
-*/
+ * ssExecutor test. Function Example
+ */
 
 #include <Arduino.h>
 #include <ssExecutor.h>

@@ -1,6 +1,6 @@
 /*
-* ssExecutor test. Switch Function Example
-*/
+ * ssExecutor test. Switch Function Example
+ */
 
 #include <Arduino.h>
 #include <ssExecutor.h>

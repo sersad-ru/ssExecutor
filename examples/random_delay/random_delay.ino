@@ -1,6 +1,6 @@
 /*
-* ssExecutor test. Random Delay Example
-*/
+ * ssExecutor test. Random Delay Example
+ */
 
 #include <Arduino.h>
 #include <ssExecutor.h>

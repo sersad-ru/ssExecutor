@@ -1,6 +1,6 @@
 /*
-* ssExecutor test. Inplace Execution Example
-*/
+ * ssExecutor test. Inplace Execution Example
+ */
 
 #include <Arduino.h>
 #include <ssExecutor.h>

@@ -1,6 +1,6 @@
 /*
-* ssExecutor test. Child Class Example
-*/
+ * ssExecutor test. Child Class Example
+ */
 
 #include <Arduino.h>
 #include <ssExecutor.h>
