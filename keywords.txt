@@ -18,7 +18,7 @@ run		        KEYWORD2
 setLastAction	KEYWORD2
 getLastAction	KEYWORD2
 #######################################
-# Structures (KEYWORD3)
+# Structures  (KEYWORD3)
 #######################################
 
 #######################################
