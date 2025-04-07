@@ -19,6 +19,11 @@ ssExecutor(const ssPayload func);
 
 Creates the `ssExecutor` object and optionally setup base parameters.
 
+|Prarm|Type|Description|
+|:---:|:---|:---|
+|delay_mp|`uint32_t`|The delay between executions in milliseconds. **Default: `0`**|
+|func|`void (*ptr)(void)`|Pointer to the function to execute. **Default: `NULL`**|
+
 ## Usage examples
 
 
