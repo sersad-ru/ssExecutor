@@ -1,0 +1,22 @@
+{
+  "name": "ssExecutor",
+  "version": "1.0.0",
+  "keywords": "execute, timing, multitasking",
+  "description": "Executes the code at specified intervals",
+  "homepage": "https://github.com/sersad-ru/ssExecutor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sersad-ru/ssExecutor.git"
+  },
+  "authors": {
+    "name": "Sergey Sadovnikov",
+    "email": "sersad@gmail.com",
+    "maintainer": true
+  },
+  "license": "GPL-3.0-or-later",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": "ssExecutor.h",
+  "examples": "examples/*/*.ino",
+  "export": {"exclude": [".git"]}
+}
